@@ -14,6 +14,9 @@ class  InputGroup  extends  HTMLParagraphElement {
 		});
 	}
 }
+
+// Define the new element
+customElements.define('input-group', InputGroup, { extends: 'p' });
 ```
 
 ## How to use
